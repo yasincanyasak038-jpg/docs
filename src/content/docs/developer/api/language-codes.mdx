@@ -1,24 +1,24 @@
 ---
-title: Language Codes
-description: Explore the list of language codes supported by Crowdin and Crowdin Enterprise
-slug: developer/language-codes
-sidebar:
-  order: 5
-tableOfContents: false
+başkalık: Dil Kodları
+açıklama: Crowdin ve Crowdin Enterprise tarafından desteklenen dil kodların listesi keşfedin
+sümüklüböcek: geliştirici/dil kodları
+Kenar çubuku:
+ sipariş: 5
+tableofcontents: yanlış
 ---
 
-import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
-import Languages from '~/components/Languages.astro';
+'@astrojs/starlight/components' seçeneğinden {Bir Kenara, Sekmeler, TabItem } içe aktarın;
+dilleri '~/components/languages.astro'dan içe aktarın;
 
-<Aside>
-  Custom languages are not included in the list.
-</Aside>
+<Yan>
+ Özel diller listeye dahil değildir.
+</Yan>
 
-<Tabs syncKey="product">
-  <TabItem label="Crowdin">
-    <Languages product="crowdin" />
-  </TabItem>
-  <TabItem label="Crowdin Enterprise">
-    <Languages product="enterprise" />
-  </TabItem>
+<Tabs syncKey="ürün">
+ <TabItem etiketi="Kalabalık">
+ <Diller ürün="kalabalık" />
+ </TabItem>
+ <TabItem etiketi="Crowdin Enterprise">
+ <Diller ürün="işletme" />
+ </TabItem>
 </Tabs>
